@@ -2,7 +2,7 @@
 
 A clone of [.GEARS' Flappy Bird](https://dotgears.com/games/flappy-birds-family) in just over 1000 lines of C.
 
-![Screenshot](screenshot.png "Screenshot")
+![Preview](preview.gif "Preview")
 
 ## Checkout
 
