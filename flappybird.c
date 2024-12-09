@@ -141,7 +141,7 @@ typedef struct pipe {
     float gap_y;
 } pipe;
 
-const int Max_Pipes = 10;
+#define   Max_Pipes 10
 pipe      pipes[Max_Pipes];
 int       pipes_len = 0;
 int       pipe_to_pass = 0;
@@ -164,7 +164,7 @@ int get_sprite_height(const SDL_Rect *rect) {
 }
 
 SDL_Thread   *save_thread;
-const size_t  Save_File_Path_Len = 256;
+#define       Save_File_Path_Len 256
 char          save_file_path[Save_File_Path_Len];
 
 int load_file() {
@@ -191,7 +191,7 @@ int load_file() {
     return 0;
 }
 
-const size_t Save_File_Err_Len = 128;
+#define      Save_File_Err_Len 128
 char         save_file_err[Save_File_Err_Len];
 
 typedef enum user_codes_t {
