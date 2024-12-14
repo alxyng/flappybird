@@ -23,10 +23,17 @@ git submodule update --init --recursive
 
 ### macOS
 
-The following has been tested on **macOS** only but may work on other platforms.
-
 ```
 brew install libxmp fluid-synth wavpack
+cmake --preset Release
+cmake --build --preset Release
+./build/Release/flappybird
+```
+
+### Debian/Linux
+
+```
+sudo apt-get install libxmp-dev libwavpack-dev libfluidsynth-dev fluidsynth
 cmake --preset Release
 cmake --build --preset Release
 ./build/Release/flappybird
